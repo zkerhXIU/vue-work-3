@@ -24,7 +24,7 @@ import {createApp } from 'https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.
                 })
                 .catch((error) =>{
                   alert(`請重新登入`)
-                  window.location = 'login.html';
+                  window.location = 'index.html';
                 })
               },
           getProducts( ){
